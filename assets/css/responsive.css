@@ -1,0 +1,102 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .group__btns button {
+        font-size: 12px;
+    }
+    
+    .group__btns ul {
+        gap: 8px;
+        overflow: auto;
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .group__btns button {
+        font-size: 12px;
+        width: max-content;
+    }
+    
+    .group__btns ul {
+        gap: 8px;
+        overflow: auto;
+    }
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .group__btns button {
+        font-size: 12px;
+        width: max-content;
+    }
+    
+    .group__btns ul {
+        gap: 8px;
+        overflow: auto;
+    }
+    .dt-length {
+        display: none;
+    }
+    
+    .tb-row-1 .col-md-auto {
+        width: 100%;
+    }
+    .header__content button {
+        background: no-repeat;
+        width: auto;
+    }
+    
+    .header__content {
+        padding: 8px 0;
+    }
+    
+    .header__content button img {
+        filter: invert(58%) sepia(100%) saturate(336%) hue-rotate(42deg) brightness(92%) contrast(90%);
+    }
+
+.navBtn.active .bar {
+    display: block;
+}
+
+.navBtn.active .close {
+    display: none;
+}
+    
+    .header__content button span {
+        font-size: 10px;
+        width: 16px;
+        height: 16px;
+        top: 5px;
+        right: -4px;
+    }
+    .box__body.show-side {
+        margin: auto;
+        width: 100%;
+    }
+    .sub__nav ul{
+    font-size: 12px;
+}
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
